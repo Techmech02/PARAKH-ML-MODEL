@@ -1,0 +1,11 @@
+question,selected_option,reason,topic
+"What is the time complexity of merge sort?", "O(n²)", "Because it splits arrays fast", "Sorting Algorithms"
+"Which structure uses LIFO?", "Queue", "I guess queue comes first?", "Data Structures"
+"What is the derivative of x²?", "2x", "Derivative of x² is 2x", "Calculus"
+"What is the capital of France?", "Paris", "I know Paris is the capital", "Geography"
+"Which algorithm is used for searching an element in a sorted array?", "Binary Search", "It reduces the search space in half each time", "Algorithms"
+"Who developed the theory of relativity?", "Albert Einstein", "I remember it's Einstein", "Physics"
+"What is the difference between a list and a tuple?", "A tuple is immutable", "Tuples cannot be changed after creation", "Python"
+"How does a neural network learn?", "Backpropagation", "It adjusts weights through errors", "Machine Learning"
+"Which data structure uses a FIFO method?", "Queue", "Queue is first in, first out", "Data Structures"
+"Which of the following is a primary key in a database?", "ID", "ID uniquely identifies each record", "Databases"

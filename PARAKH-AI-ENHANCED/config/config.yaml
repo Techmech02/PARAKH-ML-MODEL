@@ -1,0 +1,20 @@
+paths:
+  bloom_labeled_mcqs: data/mcqs/blooms_labeled_mcqs.csv    # Where labeled MCQs are stored
+  bloom_model: models/bloom_classifier/model/              # Where Bloom classifier model will be saved
+  reason_labeled_data: data/student_attempts/reasons.csv   # Student reasons (for reason quality analyzer)
+  reason_model: models/reason_quality_analyzer/model/      # Where Reason Quality model will be saved
+  student_attempts: data/student_attempts/                 # Folder for student's pre-assessment answers
+  processed_data: data/processed/                          # Preprocessed embeddings, etc.
+
+models:
+  embedding_model: all-MiniLM-L6-v2                        # Sentence embedding model name
+  classifier_model: logistic_regression                    # Name/type of the classifier
+
+training:
+  test_size: 0.2                                            # 20% data for testing
+  random_seed: 42                                           # For reproducibility
+  max_iter: 1000                                            # Max iterations for logistic regression
+
+quiz_generation:
+  min_mcqs_per_topic: 5                                     # Minimum MCQs to pick per weak topic
+  difficulty_scaling: true                                 # Whether to adjust MCQ difficulty as student improves
